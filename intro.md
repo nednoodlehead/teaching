@@ -71,6 +71,14 @@ Some programming languages need you to define what type a variable is before all
 They also require you to define what types are passed in and returns from functions.
 Python does not require you to explicitly define what type your variable is. The interpreter will know.
 
+```
+Static typing:
+x: integer = 10;
+
+Dynamic Typing:
+x = 10;
+```
+
 <h3>Garbage Collected</h3>
 In all computer programs, random access memory (RAM) is used to store things, such as variables. (Think of spotify storing the name of
 the current song somewhere.) In some programming languages, you need to explicitly create, and drop these values in memory.
