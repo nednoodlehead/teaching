@@ -33,6 +33,7 @@ Python has no specific purpose, and is therefore geeralized as a general-purpose
 A code block is a snippet of code that is executed together. Many languages will use curly braces to define
 different code blocks, python uses different indentations.
 <h5>Curly braces:</h5>
+
 ```
 group_1
 group_1
@@ -50,6 +51,7 @@ group_1
 group_1
 ```
 <h5>Indentation:</h5>
+
 ```
 group_1
 group_1
@@ -62,7 +64,7 @@ group_1
   group_2
 group_1
 ```
-You don't need to worry about why or how code blocks are made, that will come later
+You don't need to worry about why or how code blocks are made, that will come later. Just know that python uses indentation.
 
 <h3>Dynamically Typed</h3>
 Some programming languages need you to define what type a variable is before allowing you to create it.
