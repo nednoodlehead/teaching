@@ -9,7 +9,7 @@
 Python is an object orientated, general-purpose, indentation-based, dynamically typed, garbage collected,
 interprete programming and scripting language.
 
-<h3>Object Orientated<h3>
+<h3>Object Orientated</h3>
 What this means is that everything in python is an object. Any data created is an object.
 An object can either be something logical, such as my GroceryStore program having a Milk Object,
 or it can be something abtract, such as an object that represents an open file.
@@ -80,12 +80,13 @@ You might wonder, what is the other option than reading each line? Well, it is c
 The language will get compiled (Usually by external tools) and executed. The main difference is that each file has to produce no
 errors before executing. So if line 4 delets a file, and line 5 causes an error, it will not delete the file.
 
-<h3>Programming and Scripting Language<h3>
+<h3>Programming and Scripting Language</h3>
 Usually different languages are categorized into either being meant for programming (Like creating apps such as spotify, or Chrome), or
 meant for creating quick scripts (Such as searching a directory for text inside a file)
 Python is good at, and can do both of these things. And the specific distinction between a language that CAN
 do scripting actions, and a language that is commonly defined as a scripting language, is if it is easy and quick to
 make the script
 
+***
 
 The python file extention is `.py`
