@@ -14,10 +14,10 @@ What this means is that everything in python is an object. Any data created is a
 An object can either be something logical, such as my GroceryStore program having a Milk Object,
 or it can be something abtract, such as an object that represents an open file.
 Every object has:
-Data - This can be numbers, words...
-Methods - Things you can do to / with the object (Perhaps Milk object could have a method 'add_to_cart')
-The option for inheritance - Perhaps a Truck object may inherit the 'Door' class, and can do all the things that
-the door class can do.
+1. Data - This can be numbers, words...
+2. Methods - Things you can do to / with the object (Perhaps Milk object could have a method 'add_to_cart')
+3. The option for inheritance - Perhaps a Truck object may inherit the 'Vehicle' class, and shares data and methods that the
+'Vehicle' abtract can do (Such as entering, turning on, refueling...)
 
 It is a little more complex than this, but this is all that is needed right now
 
