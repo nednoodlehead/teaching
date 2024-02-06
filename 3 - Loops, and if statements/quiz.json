@@ -1,0 +1,11 @@
+{
+  "questions": [
+    "What is the correct syntax for an if statement?",
+  ],
+  "potential_answers": [
+    "1.\n\nif (x > 10) {\n    print!(\"x is larger than 10!\")\n}\n2.\n\nif x > 10 {\nprint(\"x is larger than 10!\")\n}\n3.\n\nif x > 10:\n    print(\"x is larger than 10\")\n\n4.\nif {x > 10}:\n    print(\"x is larger than 10\")",
+
+  ]
+
+
+}
