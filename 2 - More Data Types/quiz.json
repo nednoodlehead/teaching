@@ -1,0 +1,23 @@
+{
+  "questions": [
+    "What method is used to remove the last item from a list?",
+    "What index to lists begin at?",
+    "How can you print the 2nd item in a list?",
+    "What method is used to add one item to the end of a list?",
+    "What method is used to add an item to a specific index"
+  ],
+  "potential_answers": [
+    "1. my_list.remove_last()\n2. my_list.pop()\n3. my_list.remove_index(-1)\n4. my_list.delete(-1)",
+    "1. 1\n2. 0\n3. -1\n4. 100",
+    "1. print(my_list.item(2))\n2. print(my_list.index(1))\n3. print(my_list[1])\n4. print(my_list.spot(1))",
+    "1. my_list.append('new item')\n2. my_list.push('new item')\n3. my_list.tether('new item')\n4. my_list.add('new item')",
+    "1. my_list.insert_at(0, 'item')\n2. my_list.insert(0, 'item')\n3. my_list.add(0, 'item')\n4. my_list.push_to(0, 'item')"
+  ],
+  "answers": [
+    2,
+    2,
+    3,
+    1,
+    2
+  ]
+}
