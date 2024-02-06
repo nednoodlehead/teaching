@@ -1,7 +1,7 @@
 import json
 
 quiz_to_do = input("Which Quiz would you like to do?\n1. Data Types, Comments, Variables\n2. More Data Types\n3. Loops & if statements\n4. Extra Utilities (1)\n5. Extra Utilities (2)\
-                   \n6. Extra Utilities (3)\n7. Functions")
+                   \n6. Extra Utilities (3)\n7. Functions\n")
 
 num_to_file = {
     "1": "./1 - Data Types, Comments, Variables\\quiz.json",
