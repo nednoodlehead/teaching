@@ -1,90 +1,64 @@
 
 # any line that begins with a # is a commented line
 # python will not "read" this and do anything with it. it's entire purpose is for developers to read
+
 # variables
 # assign a value to a variable using '='
 my_variable = "hello"
-# comments. comments are noted with a '#'
-#
+
+# variables store values.
+
+
+# printing
+# you can print values out to the console (also known as stdout, standard output)
+print(my_variable)
+
+# printing can be useful for giving feedback to a user or asking them a question
+
 # data types
 # string. anything inside of "" or '' known as 'str'
-# x = "a"
-# print(x)
 
-# x = None
+my_string = "Hello, this is a string"
+my_second_string = 'I can also be single quotes'
 
 
-#
 # integer. any number (negative, or positive), with no decimal point
-# my_number = -18
-#
+my_number = -18
+my_second_number = 1991
+
+
 # float. any number (positive or negative), including a decimal point
-# my_float = 872.19
-#
+my_float = 872.19
+my_second_float = -191.10
+
+# complex. an integer followed by the letter j, used in complex math stuffs
+
+my_complex = 1j
+
 # boolean. Either True or False
-# my_bool_1 = True
-# my_bool_2 = False
-#
-# # null / None. Used to represent the absence of a value
-# my_null = None
-#
-
-# data types
-
-# lists!
-# lists are the most basic data type, they will hold any number of objects. Of any type
-
-# create an empty list
-# my_list = []
-
-# create a list with some items in it
-my_cool_list = ["python", "is", "super", "fun!!", True, 201.2, True]
+my_bool_1 = True
+my_bool_2 = False
 
 
-# tuples
-# (
-
-# sets
-#
-z = {1, 3, 5, 7, 1, 3, 1, 9}
-# my_new_set = set(z)
-# print(z)
-
-my_dict = {
-     "my_key": "my_value",
-     "my_key_2": "my_new_value",
-     "my_key_1": "🥁",
-     "a1": "black_rook",
-     "b5": "white_queen"
- }
-
-# print(my_dict["my_key_1"])
+# null / None. Used to represent the absence of a value
+my_null = None
 
 
-# if statements
+# additional content
 
-my_new_number = 10
+# anything inside of quotes is a string, no exceptions
+i_am_a_string = "19"
+i_am_also_a_string = "True"
 
-#if my_new_number < 50:
-#    print('my number is smaller than 50')
-#elif my_new_number < 150:
-#    print("my number is smaller than 150")
-#else:
-#    print('my number is something else')
+# to follow general code styling rules, variable names should have no capital letters, and should use underscore '_' as a delimeter
 
+# you can do simple math with complex, int, and float types
+print(3 + 10)
+print(13.11 - 6.55)
+print(-10 * 2)  # * = multiplication
+print(100 / 5) # / = division
+print(100 // 6) # 'floor' (division, but forget the remainder)
+print(103 % 25)  # the remainder of the division, 25 fits into 103 4 times, with 3 remaining, so the result is 3
+print(5 ** 9)  # 5 to the power or 9
 
-my_list = [1, 2]
-
-my_list.append(3)
-
-#print(my_list)
-
-y = (1, 2,)
-
-y, x = 1, 2
-
-return (x, y)
-
-
-# print(type(y))
-
+# everything in python is caps sensitive, so `x = true` will throw an error, `x = True` is valid
