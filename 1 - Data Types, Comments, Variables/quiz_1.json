@@ -10,7 +10,7 @@
     "1. let x = \"hello\"\n2. var x = \"hello\"\n3. x = \"hello\"\n4. variable x = \"hello\"",
     "1. Integer\n2. String\n3. Bool\n4. Float",
     "1. Integer\n2. String\n3. Bool\n4. Float",
-    "1. x = Null\n2. x = null\n3.x = None\n4. x = none",
+    "1. x = Null\n2. x = null\n3. x = None\n4. x = none",
     "1. #\n2. //\n3. \\\n4. %"
   ],
   "answers": [
