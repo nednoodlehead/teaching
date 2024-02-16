@@ -3,11 +3,19 @@
 1. What do you know about Python?
 2. What is python used for?
 3. What can python do? Are there limits?
- 
+4. Do you know what an environment is?
+>! An environment is a computer system where code is ran. Your computer's instance of Windows 11 is an environment, an environment characteristics are generally software based. Environments have certain variables,
+>! called environmental variables. These variables can affect how code is ran, and how the user interacts with their environment.
+5. What about a virtual environment?
+>! A virtual environment is an environment, but it is created with software. It simulates running code in a different computer. It is a type of virtualization. The purpose is to create
+>! Isolated environments so you can test and develop code separately from your system environment.
 ***
 
-Python is an object orientated, general-purpose, indentation-based, dynamically typed, garbage collected,
-interprete programming and scripting language.
+
+
+
+>! Python is an object orientated, general-purpose, indentation-based, dynamically typed, garbage collected,
+>! interprete programming and scripting language.
 
 <h3>Object Orientated</h3>
 What this means is that everything in python is an object. Any data created is an object.
