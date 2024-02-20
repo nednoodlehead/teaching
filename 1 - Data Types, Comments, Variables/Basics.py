@@ -1,7 +1,8 @@
 
 # any line that begins with a # is a commented line
 # python will not "read" this and do anything with it. it's entire purpose is for developers to read
-# it is good practice to have a space between the hashtag and the beginning of the comment. More fomatting best practices can be found at:
+# it is good practice to have a space between the hashtag and the beginning of the comment.
+# More fomatting best practices can be found at:
 # https://peps.python.org/pep-0008/
 
 # variables
