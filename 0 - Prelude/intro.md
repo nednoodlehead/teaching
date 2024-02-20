@@ -54,7 +54,7 @@ Object orientated programming often has it's own course in university studies, b
 
 <h3> General-purpose </h3>
 Sometimes people create languages with a certain purpose in mind. For example, R is made specifically for data scientists, Swift for building applications for Apple systems, or SQL, for interacting
-with databases.
+with databases. (SQL is technically a query language, but you get the point)
 
 
 The attribute of 'general purpose' is usually only given to languages that have a mature ecosystem, and lots of libraries to do vastly different tasks.
