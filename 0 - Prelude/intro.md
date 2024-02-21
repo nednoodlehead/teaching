@@ -121,7 +121,7 @@ at the cost of performance.
 
 <h3>Interpreted</h3>
 Though interpretation vs compiling is not an inherant trait of the language, it is how the code gets executed. And technically, python's code is 'compiled' to bytecode, then interpreted.
-But for the sake of exeucting the code, we'll call it interpreted.
+But for the sake of running code, and how it acts, we'll call it interpreted.
 
 
 This is one of two ways for the computer to turn your code into binary instructions for the CPU.
@@ -131,7 +131,7 @@ the program to crash, line 4 will still delete that file, regardless of what hap
 
 You might wonder, what is the other option than reading each line? Well, it is compiled.
 The language will get compiled (Usually by external tools) and executed. The main difference is that each file has to produce no
-errors before executing. So if line 4 delets a file, and line 5 causes an error, it will not delete the file.
+errors before executing. So if line 4 delets a file, and line 5 has a compilation error, it will not delete the file.
 
 <h3>Programming and Scripting Language</h3>
 Usually different languages are categorized into either being meant for programming (Like creating apps such as spotify, or Chrome), or
@@ -139,7 +139,7 @@ meant for creating quick scripts (Such as searching a directory for text inside 
 Python is good at, and can do both of these things. And the specific distinction between a language that CAN
 do scripting actions, and a language that is commonly defined as a scripting language, is if it is easy and quick to
 make the script. Since all programming languages are scripting languages, but not all scripting languages are programming languages, we just refer to the useful, and easy to work with
-scripting languages as 'scripting languages'. And python fits that category.
+languages as 'scripting languages'. And python fits that category.
 
   
   </details>
