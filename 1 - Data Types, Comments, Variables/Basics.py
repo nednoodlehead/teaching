@@ -16,7 +16,7 @@ my_variable = 10
 # you can print values out to the console (also known as stdout, standard output)
 print(my_variable)
 
-# printing can be useful for giving feedback to a user or asking them a question
+# printing can be useful for giving feedback to a user or for debugging
 
 # data types
 # string. anything inside of "" or '' known as 'str'
@@ -53,6 +53,24 @@ my_null = None
 i_am_a_string = "19"
 i_am_also_a_string = "True"
 
+# there are a few different naming conventions.
+# camelCase  (first word starting with lowercase, every word after begins with capital. no underscores)
+# snake_case (always lowercase, underscore as a delimeter)
+# PascalCase (Every word's first letter is capitalized)
+# kebab-case (all lowercase, hyphen as a delimeter)
+
+# python's pep8 naming conventions suggests using snake case for nearly everything. Occasionally PascalCase is used
+
 # to follow general code styling rules, variable names should have no capital letters, and should use underscore '_' as a delimeter
 
+
 # everything in python is caps sensitive, so `x = true` will throw an error, `x = True` is valid
+
+# python will try it's best to do what you want, but sometimes it is impossible
+
+my_first_num = 10.10  # float
+my_alternate_num = 71  # int
+# print(my_first_num + my_alternate_num)
+
+my_weird_str = "190"
+# print(my_first_num + my_weird_str)
