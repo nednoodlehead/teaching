@@ -1,0 +1,26 @@
+{
+  "questions": [
+    "What is the symbol for multiplication in python?",
+    "How can you cast a string to an integer?",
+    "How can you get the length of a string?",
+    "Which one of these strings is a formatted string?",
+    "What is the correct syntax for the `replace` function?",
+    "How can you concatenate strings?"
+  ],
+  "potential_answers": [
+    "1. %\n2. x\n3. *\n4. //",
+    "x = \"120\"\n1. int(x)\n2. integer(x)\n3. x.as_int()\n4. x.to_int()",
+    "x = \"my super fun string\"\n1. length(x)\n2. len(x)\n3. x.len()\n4. x.length()",
+    "x = \"hello\"\n1. for'{} world'\n2. f\"{x} world\"\n3. r'{x} world'\n4. format(\"{} world\", x)",
+    "x = \"Hello world\"\n1. replace(x, 'l', 'O')\n2. x.replace(str, 'l', 'O')\n3. rep(x, 'l', 'O')\n4. x.replace('l', 'O')",
+    "x = 'hello'\ny = 'world'\n1. new = x + y\n2. new = concat(x, y)\n3. new = concatenate(x, y)\n4. new = x * y"
+  ],
+  "answers": [
+    3,
+    1,
+    2,
+    2,
+    4,
+    1
+  ]
+}

@@ -1,16 +1,17 @@
 import json
 
-quiz_to_do = input("Which Quiz would you like to do?\n1. Data Types, Comments, Variables\n2. More Data Types\n3. Loops & if statements\n4. Extra Utilities (1)\n5. Extra Utilities (2)\
-                   \n6. Extra Utilities (3)\n7. Functions\n")
+quiz_to_do = input("Which Quiz would you like to do?\n1. Data Types, Comments, Variables\n2. Working with data types\n3. More Data Types\n4. Loops & if statements\n5. Extra Utilities (1)\n6. Extra Utilities (2)\
+                   \n7. Extra Utilities (3)\n8. Functions\n")
 
 num_to_file = {
     "1": "./1 - Data Types, Comments, Variables\\quiz.json",
-    "2": "./2 - More Data Types\\quiz.json",
-    "3": "./3 - Loops, and if statements\\quiz.json",
-    "4": "./4 - Extra Utilities\\quiz_1.json",
-    "5": "./4 - Extra Utilities\\quiz_2.json",
-    "6": "./4 - Extra Utilities\\quiz_3.json",
-    "7": "./5 - Functions\\quiz.json",
+    "2": "./1 - Data Types, Comments, Variables\\quiz_2.json",
+    "3": "./2 - More Data Types\\quiz.json",
+    "4": "./3 - Loops, and if statements\\quiz.json",
+    "5": "./4 - Extra Utilities\\quiz_1.json",
+    "6": "./4 - Extra Utilities\\quiz_2.json",
+    "7": "./4 - Extra Utilities\\quiz_3.json",
+    "8": "./5 - Functions\\quiz.json",
 }
 
 with open(num_to_file[quiz_to_do]) as file:
