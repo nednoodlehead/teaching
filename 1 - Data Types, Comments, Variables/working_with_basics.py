@@ -95,3 +95,9 @@ c = a + b
 passage = "We were called \"Vikings\", a weird name"
 
 # it is also used to process special characters, such as a newline (\n) or carriage return (\r)
+
+# you can use the input function to get input from a user
+
+your_input = input("Type whatever you want after this, and click enter!: ")
+
+print(f'you inputted: {your_input}')
