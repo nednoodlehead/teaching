@@ -7,13 +7,20 @@
 # indexing begins at 0
 # the value for index #2 in this case would be "rabbit"
 
+# mutability
+# mutable comes from latin `mutabilis`, "changeable" or "to change"
+# mutable means you can change it after it has been created, immutable means you cannot
 
-# lists are one of the 3 built-in types that allow us to store multiple pieces of data in one type
+# strings are immutable, for example, you cannot change the second letter in a string, if you wanted to do that, you could create a new string and make the changes you want.
+# a few of the data types we are going over are mutable, and some are immutable, it is important to know.
+
+
+# lists are one of the 4 built-in types that allow us to store multiple pieces of data in one object
 # lists are defined by square brackets
 
 my_list = [] 
 
-# you can also intialize your list with data within it. A list can can contain any amount of objects. Each item must be separated by a comma
+# you can also initialize your list with data within it. A list can can contain any amount of objects. Each item must be separated by a comma
 
 my_list_with_content = [1, "hi", None, True, 10.2, 2j]
 

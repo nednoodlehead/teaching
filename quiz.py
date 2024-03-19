@@ -4,14 +4,14 @@ quiz_to_do = input("Which Quiz would you like to do?\n1. Data Types, Comments, V
                    \n7. Extra Utilities (3)\n8. Functions\n")
 
 num_to_file = {
-    "1": "./1 - Data Types, Comments, Variables\\quiz.json",
-    "2": "./1 - Data Types, Comments, Variables\\quiz_2.json",
-    "3": "./2 - More Data Types\\quiz.json",
-    "4": "./3 - Loops, and if statements\\quiz.json",
-    "5": "./4 - Extra Utilities\\quiz_1.json",
-    "6": "./4 - Extra Utilities\\quiz_2.json",
-    "7": "./4 - Extra Utilities\\quiz_3.json",
-    "8": "./5 - Functions\\quiz.json",
+    "1": "./1-Data_Types_Comments_Variables\\quiz.json",
+    "2": "./1-Data_Types_Comments_Variables\\quiz_2.json",
+    "3": "./2-More_Data_Types\\quiz.json",
+    "4": "./3-Loops_and_if_statements\\quiz.json",
+    "5": "./4-Extra_Utilities\\quiz_1.json",
+    "6": "./4-Extra_Utilities\\quiz_2.json",
+    "7": "./4-Extra_Utilities\\quiz_3.json",
+    "8": "./5-Functions\\quiz.json",
 }
 
 with open(num_to_file[quiz_to_do]) as file:
