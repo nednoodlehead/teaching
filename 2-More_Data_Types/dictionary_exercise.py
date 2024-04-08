@@ -1,10 +1,10 @@
 
 # below, is a representation of a chessboard, using a dictionary.
 # you have 3 tasks with this exercise:
-# the tile 'h8' is missing, add the tile, and the corresponding piece there (should be a black rook)
-# its white's turn to move, make a move for white. Try to copy the contents of the tile, then set the value to another tile
+# 1. the tile 'h8' is missing, add the tile, and the corresponding piece there (should be a black rook)
+# 2. its white's turn to move, make a move for white. Try to copy the contents of the tile, then set the value to another tile
 # try printing out the dictionary after making a move to ensure you did it correctly!
-# it is now black's turn to move. update the dictionary to represent black making a move
+# 3. it is now black's turn to move. update the dictionary to represent black making a move. Remember to set the piece's old location to `None`!
 
 # hint: not sure how to set a copy or set a value? refer to the "dictionaries.py" file
 # alternatively, you can look at: https://www.w3schools.com/python/python_dictionaries.asp
@@ -73,5 +73,4 @@ chessboard = {
      "h5": None,
      "h6": None,
      "h7": "black_pawn",
-     "h8": "black_rook",
 }
