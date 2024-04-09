@@ -49,6 +49,7 @@ chessboard = {
      "e5": None,
      "e6": None,
      "e7": "black_pawn",
+     "k10": "faker",
      "e8": "black_king",
      "f1": "white_bishop",
      "f2": "white_pawn",
