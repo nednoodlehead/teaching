@@ -10,7 +10,7 @@ b = 51
 
 
 # task 2: create two of your own variables, make them both integers. Multiply your two variables
-# together
+# together. Print the output
 
 
 
@@ -28,7 +28,7 @@ b = 51
 
 
 # task 4: create a string that has a number inside (e.g. "341") and convert it to an integer type.
-# assign the new value to a new variable!
+# assign the new value to a new variable! print out the type of the new variable to make sure you've done it correctly
 
 
 
@@ -37,6 +37,8 @@ b = 51
 # x = "america"
 
 # do not directly edit their assignment statements.
+# do not manually change their values, or re-type them to fit the above statement.
+# swap them, so if their original values are anything else, it swaps just fine.
 
 z = "america"
 x = "north"
