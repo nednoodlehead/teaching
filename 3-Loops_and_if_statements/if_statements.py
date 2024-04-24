@@ -89,3 +89,9 @@ elif "world" == "world":
 if "" == "":
      pass  # im not sure what I want to do...
 
+
+# mock assignment (if time)
+# ask the user for a number, and tell them if their number is higher, equal to, or lower than 10.
+
+# hints:  use input(), what type does that give you back? A number, or a string? google it if you dont know
+#  
