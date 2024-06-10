@@ -11,6 +11,8 @@
 
 my_dict = {
      "my_key!": "my value, associated with the key",
+     "also a key": "second key value",
+     19: "third key value",
 }
 
 # you do not index into a dicitonary the same way you index into a list. You index using the key.

@@ -2,12 +2,12 @@
 A repo to teach ppl python. collection of resources and files
 
 Download Python:
-- During install, make sure to select `Use Notepad as Git's default Editor` and under the `Adjusting your PATH environment`
-screen, select `Git from the command line and also from 3rd-party software`
+- Make sure to check the box that says "Add python to path" when installing
 https://www.python.org/downloads/
 
 Download Git:
-- On the git installation, check
+- During install, make sure to select `Use Notepad as Git's default Editor` and under the `Adjusting your PATH environment`
+screen, select `Git from the command line and also from 3rd-party software`
 https://gitforwindows.org/
 
 Download Pycharm:
